@@ -412,6 +412,14 @@
     [
       "9a118a8d-997c-45eb-a71c-5960bfad45f7",
       "Root"
+    ],
+    [
+      "700cb79e-c57c-4023-8e27-b522ba3b19c8",
+      "audio"
+    ],
+    [
+      "d56ec8ae-1f34-4a9d-890b-5d1dca150807",
+      "arduino"
     ]
   ],
   "text_variables": {}
