@@ -2585,8 +2585,8 @@
 		(uuid 5ea85cd2-f067-4a13-86e2-482ca4a5b47e)
 	)
 	(rectangle
-		(start 16.51 30.48)
-		(end 86.36 76.2)
+		(start 16.51 24.13)
+		(end 86.36 69.85)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2597,8 +2597,8 @@
 		(uuid 71ee7aad-21b3-47a7-9676-f963411a04bb)
 	)
 	(rectangle
-		(start 16.51 80.01)
-		(end 92.202 129.032)
+		(start 16.51 73.66)
+		(end 92.202 122.682)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2653,7 +2653,7 @@
 	)
 	(text "x2"
 		(exclude_from_sim no)
-		(at 89.408 127.254 0)
+		(at 89.408 120.904 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2665,7 +2665,7 @@
 	)
 	(text "Status LEDs schematic \nfor Jetson Nano and Arduino"
 		(exclude_from_sim no)
-		(at 33.02 83.82 0)
+		(at 33.02 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2675,7 +2675,7 @@
 	)
 	(text "Developer Kit Module Interfaces"
 		(exclude_from_sim no)
-		(at 47.498 136.525 0)
+		(at 47.244 128.27 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2703,9 +2703,9 @@
 		)
 		(uuid "75800a57-95e9-497b-812f-2f5b34b3bebe")
 	)
-	(text "SPI Resources\n- https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all\n\nAudio Resources\n- https://www.sparkfun.com/sparkfun-i2s-audio-breakout-max98357a.html\n\nScreen Resources\n- https://www.adafruit.com/product/1680\n- https://www.adafruit.com/product/2218\n\nCamera Resources\n- https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/?category=cameras&page=1&limit=15\n- https://developer.nvidia.com/blog/selecting-the-right-camera-for-the-nvidia-jetson-and-other-embedded-systems/"
+	(text "SPI Resources\n- https://learn.sparkfun.com/tutorials/serial-peripheral-interface-spi/all\n\nAudio Resources\n- https://www.sparkfun.com/sparkfun-i2s-audio-breakout-max98357a.html\n- https://www.sparkfun.com/usb-2-0-mini-microphone-dongle.html\n\nScreen Resources\n- https://www.adafruit.com/product/1680\n- https://www.adafruit.com/product/2218\n\nCamera Resources\n- https://marketplace.nvidia.com/en-us/enterprise/robotics-edge/?category=cameras&page=1&limit=15\n- https://developer.nvidia.com/blog/selecting-the-right-camera-for-the-nvidia-jetson-and-other-embedded-systems/\n- https://www.adafruit.com/product/3099"
 		(exclude_from_sim no)
-		(at 17.78 182.88 0)
+		(at 17.018 181.102 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2716,7 +2716,7 @@
 	)
 	(text "P.5 + P.6, disable auto-on\nP.7 + P.8, switch for reset\nP.11 + P.12, switch for power-on"
 		(exclude_from_sim no)
-		(at 37.084 38.354 0)
+		(at 37.084 32.004 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2734,7 +2734,7 @@
 		)
 		(uuid "dfade1ef-0c90-4210-8682-976754eee0e9")
 	)
-	(text "Circuits to Build\n* Jetson Nano (wip)\n  - Power, reset buttons (done)\n  - Camera (wip)\n  - Screen(done)\n  - Audio (done)\n  - Microphone (wip)\n  - Status lights (LEDs) (done)\n  - Internet (done)\n* Arduino/Jetson Interface (done)\n* Arduino (wip)\n  - pot/knob controller (done)\n  - Servo limit switch (done)\n  - Servo Driver (done)\n  - Status Lights (done)\n* Power System (todo)"
+	(text "Circuits to Build\n* Jetson Nano (done)\n  - Power, reset buttons (done)\n  - Camera (done)\n  - Screen(done)\n  - Audio (done)\n  - Microphone (done)\n  - Status lights (LEDs) (done)\n  - Internet (done)\n* Arduino/Jetson Interface (done)\n* Arduino (done)\n  - pot/knob controller (done)\n  - Servo limit switch (done)\n  - Servo Driver (done)\n  - Status Lights (done)\n* Power System (todo)"
 		(exclude_from_sim no)
 		(at 243.332 39.116 0)
 		(effects
@@ -2746,15 +2746,15 @@
 		(uuid "e2aa144a-62c1-4deb-ac7c-81adf1a740b5")
 	)
 	(no_connect
-		(at 57.15 45.72)
+		(at 57.15 39.37)
 		(uuid "3fab6de8-b670-4a2e-8978-bdcfa7e68bf3")
 	)
 	(no_connect
-		(at 57.15 40.64)
+		(at 57.15 34.29)
 		(uuid "75f80976-1520-4b73-8105-d874dc66349b")
 	)
 	(no_connect
-		(at 57.15 58.42)
+		(at 57.15 52.07)
 		(uuid "8c7e5755-037a-4ac4-9669-3854d5ce3cf9")
 	)
 	(no_connect
@@ -2762,20 +2762,20 @@
 		(uuid "8fdedee3-bcb9-4d71-a810-d4961ce70ceb")
 	)
 	(no_connect
-		(at 57.15 43.18)
+		(at 57.15 36.83)
 		(uuid "a4c2e2cf-c13e-4e3b-98c3-2f27e28dad10")
 	)
 	(no_connect
-		(at 57.15 38.1)
+		(at 57.15 31.75)
 		(uuid "ad997792-aa32-4e0e-a9e7-a0c02e092d42")
 	)
 	(no_connect
-		(at 57.15 60.96)
+		(at 57.15 54.61)
 		(uuid "d69848b8-495c-45ea-b6a9-42a95409c2af")
 	)
 	(wire
 		(pts
-			(xy 31.75 120.65) (xy 31.75 118.11)
+			(xy 31.75 114.3) (xy 31.75 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2785,7 +2785,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 100.33) (xy 39.37 100.33)
+			(xy 41.91 93.98) (xy 39.37 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2795,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 50.8) (xy 57.15 50.8)
+			(xy 53.34 44.45) (xy 57.15 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2805,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 63.5) (xy 38.1 63.5)
+			(xy 57.15 57.15) (xy 38.1 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2815,7 +2815,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 105.41) (xy 31.75 106.68)
+			(xy 31.75 99.06) (xy 31.75 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2825,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 57.15 53.34)
+			(xy 48.26 46.99) (xy 57.15 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2835,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 55.88) (xy 57.15 55.88)
+			(xy 38.1 49.53) (xy 57.15 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2845,7 +2845,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 48.26) (xy 57.15 48.26)
+			(xy 53.34 41.91) (xy 57.15 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2855,7 +2855,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 93.98) (xy 31.75 95.25)
+			(xy 31.75 87.63) (xy 31.75 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2865,7 +2865,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 63.5) (xy 38.1 66.04)
+			(xy 38.1 57.15) (xy 38.1 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2875,7 +2875,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 53.34) (xy 38.1 55.88)
+			(xy 38.1 46.99) (xy 38.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2885,7 +2885,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 113.03) (xy 31.75 111.76)
+			(xy 31.75 106.68) (xy 31.75 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2895,7 +2895,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 66.04) (xy 57.15 66.04)
+			(xy 48.26 59.69) (xy 57.15 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2905,7 +2905,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 48.26) (xy 53.34 50.8)
+			(xy 53.34 41.91) (xy 53.34 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2931,12 +2931,12 @@
 				(type solid)
 			)
 		)
-		(column_widths 33.02 52.705)
-		(row_heights 3.81 3.81 4.445 3.81 3.81 3.81)
+		(column_widths 33.02 76.073)
+		(row_heights 3.81 6.096 4.445 3.81 3.81 5.842)
 		(cells
 			(table_cell "Interface/Type"
 				(exclude_from_sim no)
-				(at 17.145 139.7 0)
+				(at 16.891 131.445 0)
 				(size 33.02 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2953,8 +2953,8 @@
 			)
 			(table_cell "Device Connected"
 				(exclude_from_sim no)
-				(at 50.165 139.7 0)
-				(size 52.705 3.81)
+				(at 49.911 131.445 0)
+				(size 76.073 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2970,8 +2970,8 @@
 			)
 			(table_cell "JETSON_NANO.J13CSI"
 				(exclude_from_sim no)
-				(at 17.145 143.51 0)
-				(size 33.02 3.81)
+				(at 16.891 135.255 0)
+				(size 33.02 6.096)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -2985,10 +2985,10 @@
 				)
 				(uuid "f9b2ac84-176d-4dcf-8a10-4f4b1ddf03ae")
 			)
-			(table_cell "Camera (TBD)"
+			(table_cell "Raspberry Pi Camera Board v2 - 8MP (Adafruit #3099)"
 				(exclude_from_sim no)
-				(at 50.165 143.51 0)
-				(size 52.705 3.81)
+				(at 49.911 135.255 0)
+				(size 76.073 6.096)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3004,7 +3004,7 @@
 			)
 			(table_cell "JETSON_NANO.J6/HDMI"
 				(exclude_from_sim no)
-				(at 17.145 147.32 0)
+				(at 16.891 141.351 0)
 				(size 33.02 4.445)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3021,8 +3021,8 @@
 			)
 			(table_cell "TFP401 HDMI/DVI Decoder (Adafruit #2218)"
 				(exclude_from_sim no)
-				(at 50.165 147.32 0)
-				(size 52.705 4.445)
+				(at 49.911 141.351 0)
+				(size 76.073 4.445)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3038,7 +3038,7 @@
 			)
 			(table_cell ""
 				(exclude_from_sim no)
-				(at 17.145 151.765 0)
+				(at 16.891 145.796 0)
 				(size 33.02 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3055,8 +3055,8 @@
 			)
 			(table_cell "LCD Display (Adafruit #1680)"
 				(exclude_from_sim no)
-				(at 50.165 151.765 0)
-				(size 52.705 3.81)
+				(at 49.911 145.796 0)
+				(size 76.073 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3072,7 +3072,7 @@
 			)
 			(table_cell "JETSON_NANO.J32.PORT1/USB"
 				(exclude_from_sim no)
-				(at 17.145 155.575 0)
+				(at 16.891 149.606 0)
 				(size 33.02 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3089,8 +3089,8 @@
 			)
 			(table_cell "Wifi Dongle (TP-Link)"
 				(exclude_from_sim no)
-				(at 50.165 155.575 0)
-				(size 52.705 3.81)
+				(at 49.911 149.606 0)
+				(size 76.073 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3106,8 +3106,8 @@
 			)
 			(table_cell "JETSON_NANO.J33.PORT1/USB"
 				(exclude_from_sim no)
-				(at 17.145 159.385 0)
-				(size 33.02 3.81)
+				(at 16.891 153.416 0)
+				(size 33.02 5.842)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3121,10 +3121,10 @@
 				)
 				(uuid "bec25787-0941-4419-ac54-1fc4998db2e0")
 			)
-			(table_cell "Microphone (TBD)"
+			(table_cell "Microphone (Sparkfun COM-18488) - Potentially use USB enxtender to physically place in the proper spot."
 				(exclude_from_sim no)
-				(at 50.165 159.385 0)
-				(size 52.705 3.81)
+				(at 49.911 153.416 0)
+				(size 76.073 5.842)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -3230,7 +3230,7 @@
 	)
 	(global_label "STATUS_LEDX.<J41, ARDUINO_PINOUT>.GPIO.OUT"
 		(shape input)
-		(at 41.91 100.33 0)
+		(at 41.91 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3240,7 +3240,7 @@
 		)
 		(uuid "ad82a009-8ad4-4187-9fc4-92a024d309a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.3412 100.33 0)
+			(at 91.3412 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3340,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 31.75 109.22 90)
+		(at 31.75 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3349,7 +3349,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ca543dd-6e1c-414c-b144-2c733b879e5a")
 		(property "Reference" "D1"
-			(at 34.29 107.8864 90)
+			(at 34.29 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3358,7 @@
 			)
 		)
 		(property "Value" "LED_Small"
-			(at 34.29 110.4264 90)
+			(at 34.29 104.0764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 109.22 90)
+			(at 31.75 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +3376,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 109.22 90)
+			(at 31.75 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +3385,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
-			(at 31.75 109.22 0)
+			(at 31.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +3394,7 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
-			(at 31.75 109.22 0)
+			(at 31.75 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3419,7 +3419,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_PNP")
-		(at 34.29 100.33 180)
+		(at 34.29 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3428,7 +3428,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d7a929e-e53c-48b7-a4c8-e2efff4d3843")
 		(property "Reference" "Q2"
-			(at 29.21 99.0599 0)
+			(at 29.21 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3437,7 @@
 			)
 		)
 		(property "Value" "Q_PNP"
-			(at 29.21 101.5999 0)
+			(at 29.21 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +3446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 102.87 0)
+			(at 29.21 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3455,7 +3455,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 100.33 0)
+			(at 34.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3464,7 @@
 			)
 		)
 		(property "Description" "PNP bipolar junction transistor"
-			(at 34.29 100.33 0)
+			(at 34.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3492,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 31.75 93.98 0)
+		(at 31.75 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3501,7 +3501,7 @@
 		(fields_autoplaced yes)
 		(uuid "339551a6-86ca-4b07-a914-2eb573ec5834")
 		(property "Reference" "#PWR01"
-			(at 31.75 97.79 0)
+			(at 31.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3510,7 +3510,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 34.29 92.7099 0)
+			(at 34.29 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 93.98 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 93.98 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 31.75 93.98 0)
+			(at 31.75 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3741,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x12")
-		(at 62.23 50.8 0)
+		(at 62.23 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3750,7 +3750,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b53eaaf-bee8-40d9-9a2c-5f817f0a962f")
 		(property "Reference" "J3"
-			(at 64.77 50.7999 0)
+			(at 64.77 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3759,7 @@
 			)
 		)
 		(property "Value" "JETSON_NANO.J50"
-			(at 64.77 53.3399 0)
+			(at 64.77 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +3768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 50.8 0)
+			(at 62.23 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3777,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 50.8 0)
+			(at 62.23 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3786,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 62.23 50.8 0)
+			(at 62.23 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3841,7 +3841,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 43.18 53.34 0)
+		(at 43.18 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3850,7 +3850,7 @@
 		(fields_autoplaced yes)
 		(uuid "915db7cd-c895-4977-a5a4-105aedd79033")
 		(property "Reference" "SW2"
-			(at 43.18 45.72 0)
+			(at 43.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3858,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 43.18 48.26 0)
+			(at 43.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,7 +3866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 48.26 0)
+			(at 43.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 48.26 0)
+			(at 43.18 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 43.18 53.34 0)
+			(at 43.18 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +3909,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 120.65 0)
+		(at 31.75 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3918,7 +3918,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6b7e5b5-0540-4826-9b99-27deb9ae6db8")
 		(property "Reference" "#PWR02"
-			(at 31.75 127 0)
+			(at 31.75 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3927,7 +3927,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 125.73 0)
+			(at 31.75 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +3935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 120.65 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +3944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 120.65 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3953,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 120.65 0)
+			(at 31.75 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +3975,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 43.18 66.04 180)
+		(at 43.18 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3983,7 +3983,7 @@
 		(dnp no)
 		(uuid "a8d9c3a5-6eef-4b89-8388-2ac58710e364")
 		(property "Reference" "SW1"
-			(at 43.18 72.644 0)
+			(at 43.18 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3991,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 43.18 70.358 0)
+			(at 43.18 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3999,7 +3999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 71.12 0)
+			(at 43.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4008,7 +4008,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 71.12 0)
+			(at 43.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +4017,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 43.18 66.04 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4042,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 31.75 115.57 0)
+		(at 31.75 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4051,7 +4051,7 @@
 		(fields_autoplaced yes)
 		(uuid "efdaee23-3a1a-4dae-ae3f-5b22aa3243da")
 		(property "Reference" "R1"
-			(at 34.29 114.2999 0)
+			(at 34.29 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4060,7 @@
 			)
 		)
 		(property "Value" "R_Small"
-			(at 34.29 116.8399 0)
+			(at 34.29 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 115.57 0)
+			(at 31.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 115.57 0)
+			(at 31.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4087,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 31.75 115.57 0)
+			(at 31.75 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
